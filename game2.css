@@ -1,0 +1,69 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#gamepage2{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    background-color:black;
+}
+
+#gamebase2{
+    position:relative;
+    top:0;
+    /*left:35vw;
+    width:30vw;
+    height:100vh;*/
+    left:0;
+    width:100vw;
+    height:100vh;
+    background-color:white;
+}
+
+.circle{
+    position:absolute;
+    top:30vw;
+    left:30vw;
+    width:40vw;
+    height:40vw;
+    z-index:1;
+    /*background-image:url("circle.png");
+    background-size:cover;*/
+}
+
+.circle_img{
+    width:100%;
+    height:100%;
+}
+
+.bullet{
+    width:5vw;
+    height:30vw;
+}
+
+.originbullet{
+    position:absolute;
+    top:69vw;
+    left:47.5vw;
+}
+
+.bulletoncir{
+    position:absolute;
+    top:69vw;
+    left:47.5vw;
+}
+
+.nowbullet{
+    position:absolute;
+    top:120vw;
+    left:47.5vw;
+}
+
+.bullet_img{
+    width:100%;
+    height:100%;
+}
