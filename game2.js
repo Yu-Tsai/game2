@@ -1,10 +1,4 @@
 $(document).ready(function () {
-    (function(){
-        if (screenfull.enabled) {
-            screenfull.exit();
-        }
-    })();
-    
     var nowDeg = 0;
     var mybullet = new Array();
     var shootbullet = new Array();
