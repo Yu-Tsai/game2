@@ -6,7 +6,7 @@ $(document).ready(function () {
     var touchheight = $("#gamebase2").width() * 0.99;
     var num = 0;
     
-    if ($("#gamepage2").requestFullscreen) {
+    /*if ($("#gamepage2").requestFullscreen) {
         $("#gamepage2").requestFullscreen();
     } else if ($("#gamepage2").msRequestFullscreen) {
         $("#gamepage2").msRequestFullscreen();
@@ -14,7 +14,7 @@ $(document).ready(function () {
         $("#gamepage2").mozRequestFullScreen();
     } else if ($("#gamepage2").webkitRequestFullscreen) {
         $("#gamepage2").webkitRequestFullscreen();
-    }
+    }*/
     
     var rotation = function () {
         $(".circle").rotate({
